@@ -1,0 +1,17 @@
+input SendEmailInput {
+  sender: Sender!
+  recipients: [Recipient!]!
+  subject: String!
+  body: String
+  htmlBody: String
+}
+
+input Sender {
+  email: String!
+  name: String!
+}
+
+input Recipient {
+  email: String!
+  name: String!
+}

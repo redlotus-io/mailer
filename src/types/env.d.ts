@@ -5,6 +5,7 @@ declare global {
       PORT: string;
       DATABASE_URL: string;
       JWT_SECRET: string;
+      MAILER_API_TOKEN: string;
     }
   }
 }
