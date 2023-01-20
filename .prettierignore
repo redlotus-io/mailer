@@ -1,0 +1,8 @@
+# ignore auto generated types file
+/src/generated/graphql.ts
+
+/build
+/dist
+/coverage
+/node_modules
+/*env*
